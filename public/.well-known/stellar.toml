@@ -1,20 +1,26 @@
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
-VERSION="2.0.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 
-ACCOUNTS=[
+ACCOUNTS = [
   "GABER3CCXQ44LCM5CBHKCPRNLMJFEKN2QKBQHQPJD6TFV3WXU63PKXRP"
 ]
 
+VERSION = "2.0.0"
+
 [DOCUMENTATION]
-ORG_NAME="LEXORA"
-ORG_DBA="VANTA"
-ORG_DESCRIPTION="VANTA asset information for the Lexora ecosystem."
+
+ORG_NAME = "VANTA Token"
+ORG_URL = "https://vanta-project.vercel.app"
+ORG_DESCRIPTION = "VANTA (VANTA) is a Stellar-based digital asset issued on the Stellar network by GABER3CCXQ44LCM5CBHKCPRNLMJFEKN2QKBQHQPJD6TFV3WXU63PKXRP. The stated total supply is 922,000,000,000 VANTA. This Stellar asset information file provides public metadata for the VANTA asset and identifies its issuer and official project website."
+ORG_LOGO = "https://vanta-project.vercel.app/logo.png"
+ORG_PHYSICAL_ADDRESS = "..."
 
 [[CURRENCIES]]
-code="VANTA"
-issuer="GABER3CCXQ44LCM5CBHKCPRNLMJFEKN2QKBQHQPJD6TFV3WXU63PKXRP"
-name="VANTA"
-desc="VANTA is a Stellar asset in the Lexora ecosystem."
-status="live"
-display_decimals=7
-is_asset_anchored=false
+code = "VANTA"
+issuer = "GABER3CCXQ44LCM5CBHKCPRNLMJFEKN2QKBQHQPJD6TFV3WXU63PKXRP"
+name = "VANTA"
+desc = "VANTA (VANTA) is a Stellar digital asset issued by GABER3CCXQ44LCM5CBHKCPRNLMJFEKN2QKBQHQPJD6TFV3WXU63PKXRP. The stated total supply is 922,000,000,000 VANTA. VANTA is represented on the Stellar network by its asset code and issuer account, with project information hosted at vanta-project.vercel.app."
+conditions = "The stated total supply is 922,000,000,000 VANTA. VANTA is issued on the Stellar network by the account identified in this file. This metadata does not by itself constitute a promise of redemption, reserve backing, yield, governance rights, or other financial rights unless such terms are separately documented by the issuer. Users should independently verify the issuer, asset contract/account details, and applicable project terms before interacting with the asset."
+is_asset_anchored = false
+fixed_number = 922000000000
+display_decimals = 7
+image = "https://vanta-project.vercel.app/logo.png"
