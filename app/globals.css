@@ -1,3 +1,4 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root{--bg:#05070a;--panel:#090d12;--line:rgba(145,178,198,.13);--muted:#71808c;--text:#eaf1f5;--cyan:#79f2ff;--max:1180px}
